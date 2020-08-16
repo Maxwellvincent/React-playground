@@ -2,8 +2,9 @@ import React from 'react';
 // import {TheDate} from './state/TheDate';
 // import {Counter} from './state/Counter';
 // import {Tabs} from './state/Tabs';
-import {Accordion} from './state-drills/Accordion';
-import {DemonymApp} from './demonymapp/demonymApp';
+// import {Accordion} from './state-drills/Accordion';
+// import {DemonymApp} from './demonymapp/demonymApp';
+import RegistrationForm from '../src/RegistrationFolder/registrationForm';
 
 // const tabsProp = [
 //   { name: 'First tab',
@@ -34,7 +35,7 @@ export class App extends React.Component {
   render(){
     return (
       <div className="App">
-        <DemonymApp />
+        <RegistrationForm/>
       </div>
     );
   }
